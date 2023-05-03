@@ -1,19 +1,14 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-body {
-    background: #CCCCCC;
+.principal-title {
+    padding-left: 30px;
 }
 
 #banner {
     width: 100%;
 }
 
-h1 {
-    text-align: center;
-    
+.content-container {
+    background: #cccccc;
+    padding: 20px;
 }
 
 p {
@@ -26,4 +21,25 @@ p {
 
 em b {
     color: red;
+}
+
+.differentials {
+    background: white;
+    padding: 30px;
+}
+
+.items {
+    font-style: italic;
+}
+.title-center {
+    text-align: center;
+}
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.img-differentials {
+    width: 50%;
 }
