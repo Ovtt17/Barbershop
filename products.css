@@ -8,6 +8,9 @@ header {
     position: relative;
     margin: 0 auto;
 }
+.box h1 {
+    cursor: pointer;
+}
 
 nav {
     position: absolute;
@@ -26,4 +29,47 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+nav a:hover {
+    color: #c78c19;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.items {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 15px auto 0;
+}
+
+.items li {
+    width: 300px;
+    margin: 0 20px;
+    padding: 10px;
+    text-align: center;
+    border: solid 3px;
+    border-radius: 15px;
+}
+.items li:hover {
+    border: solid 3px #c78c19;
+    cursor: pointer;
+}
+
+.items h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.items li:hover h2{
+    font-size: 35px;
+}
+
+.items .product-description {
+    font-size: 18px;
+}
+
+.items .product-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
 }
